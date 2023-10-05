@@ -1,4 +1,4 @@
-module github.com/tcnksm/ghr
+module github.com/danudey/ghr
 
 go 1.19
 

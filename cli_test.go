@@ -127,7 +127,7 @@ func TestRetrieveOwnerName(t *testing.T) {
 	testCases := []struct {
 		in, expected string
 	}{
-		{"git@github.com:tcnksm/ghr.git", "tcnksm"},
+		{"git@github.com:danudey/ghr.git", "danudey"},
 		{"https://github.com/motemen/ghq.git", "motemen"},
 		{"git://github.com/Songmu/ghg.git", "Songmu"},
 		{"hoge", ""},
